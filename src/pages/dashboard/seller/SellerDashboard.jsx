@@ -149,18 +149,7 @@ function LiverDashboard() {
   ]
 
   return (
-    <DashboardLayout
-      title="라이버 대시보드"
-      userName="최라이버"
-      userRole="라이버"
-      navItems={[
-        { label: "대시보드", icon: <BarChart3 className="w-4 h-4" />, active: true },
-        { label: "라이브 방송 관리", icon: <Eye className="w-4 h-4" /> },
-        { label: "판매 관리", icon: <ShoppingCart className="w-4 h-4" /> },
-        { label: "정산 관리", icon: <DollarSign className="w-4 h-4" /> },
-        { label: "프로필 관리", icon: <Users className="w-4 h-4" /> }
-      ]}
-    >
+    <DashboardLayout userType="seller">
       {/* 오늘의 판매 현황 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         <Card>

@@ -164,18 +164,7 @@ function PartnersDashboard() {
   ]
 
   return (
-    <DashboardLayout
-      title="파트너스 대시보드"
-      userName="박파트너스"
-      userRole="파트너스"
-      navItems={[
-        { label: "대시보드", icon: <BarChart3 className="w-4 h-4" />, active: true },
-        { label: "상품 관리", icon: <Package className="w-4 h-4" /> },
-        { label: "입고/재고 관리", icon: <Truck className="w-4 h-4" /> },
-        { label: "판매/정산 관리", icon: <BarChart2 className="w-4 h-4" /> },
-        { label: "계정 설정", icon: <Users className="w-4 h-4" /> }
-      ]}
-    >
+    <DashboardLayout userType="supplier">
       {/* 재고 현황 */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
         <Card>
