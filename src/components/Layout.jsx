@@ -179,6 +179,7 @@ function Layout({ children }) {
                 <li><Link to="/products" className="hover:text-white">상품 판매</Link></li>
                 <li><Link to="/dashboard/seller" className="hover:text-white">라이버 등록</Link></li>
                 <li><Link to="/dashboard/supplier" className="hover:text-white">파트너스 등록</Link></li>
+                <li><Link to="/dashboard/admin" className="hover:text-white">Admin</Link></li>
               </ul>
             </div>
             <div>
@@ -200,9 +201,6 @@ function Layout({ children }) {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2024 Live Deal Platform. All rights reserved.</p>
-            <p className="mt-2">
-              <Link to="/dashboard/admin" className="text-xs text-gray-600 hover:text-gray-400">Admin</Link>
-            </p>
           </div>
         </div>
       </footer>
