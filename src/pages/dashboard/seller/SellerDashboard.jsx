@@ -149,9 +149,9 @@ function LiverDashboard() {
   ]
 
   return (
-    <DashboardLayout 
-      title="라이버 대시보드" 
-      userName="이판매" 
+    <DashboardLayout
+      title="라이버 대시보드"
+      userName="최라이버"
       userRole="라이버"
       navItems={[
         { label: "대시보드", icon: <BarChart3 className="w-4 h-4" />, active: true },

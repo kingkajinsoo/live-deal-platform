@@ -73,15 +73,15 @@ function DashboardLayout({ children, userType = 'buyer' }) {
       avatar: ''
     },
     seller: {
-      name: '이판매',
+      name: '최라이버',
       email: 'seller@example.com',
-      role: '판매자',
+      role: '라이버',
       avatar: ''
     },
     supplier: {
-      name: '박도매',
+      name: '박파트너스',
       email: 'supplier@example.com',
-      role: '도매상',
+      role: '파트너스',
       avatar: ''
     },
     admin: {
@@ -273,8 +273,8 @@ function DashboardLayout({ children, userType = 'buyer' }) {
             </Button>
             <h1 className="text-xl font-semibold">
               {userType === 'buyer' && '구매자 대시보드'}
-              {userType === 'seller' && '판매자 대시보드'}
-              {userType === 'supplier' && '도매상 대시보드'}
+              {userType === 'seller' && '라이버 대시보드'}
+              {userType === 'supplier' && '파트너스 대시보드'}
               {userType === 'admin' && '관리자 대시보드'}
             </h1>
           </div>

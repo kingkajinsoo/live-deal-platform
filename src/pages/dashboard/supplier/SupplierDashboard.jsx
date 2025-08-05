@@ -164,9 +164,9 @@ function PartnersDashboard() {
   ]
 
   return (
-    <DashboardLayout 
-      title="파트너스 대시보드" 
-      userName="박도매" 
+    <DashboardLayout
+      title="파트너스 대시보드"
+      userName="박파트너스"
       userRole="파트너스"
       navItems={[
         { label: "대시보드", icon: <BarChart3 className="w-4 h-4" />, active: true },
